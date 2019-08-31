@@ -22,7 +22,7 @@ lightning-cli listfunds
    ],
 ....
 ```
--If we check the tx (5cd32ef767c434a941548c172d91ec2537bcddddbf28c957c094b5d96fa80ae0) in the [blcok explorer] (https://blockstream.info/tx/5cd32ef767c434a941548c172d91ec2537bcddddbf28c957c094b5d96fa80ae0) that it was confirmed, in the block 582840.
+-If we check the tx (5cd32ef767c434a941548c172d91ec2537bcddddbf28c957c094b5d96fa80ae0) in the [blcok explorer](https://blockstream.info/tx/5cd32ef767c434a941548c172d91ec2537bcddddbf28c957c094b5d96fa80ae0) that it was confirmed, in the block 582840.
 
 -We check wich is the current block height:
 ```
