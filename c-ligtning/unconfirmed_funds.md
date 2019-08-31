@@ -35,11 +35,11 @@ lightning-cli getinfo
 ```
 -The tx was confirmed 592582 - 582840 = 9742 blocks back. So the daemon needs to rescan at least 9742 blocks back to confirm the unconfirmed tx. 
 
--Edit lightning coñnfig file (.lightning/config). 'rescan' options indicates to the daemon the number of blocks to rescan when it starts. In this example, we added:
+-Edit lightning config file (.lightning/config). 'rescan' options indicates to the daemon the number of blocks to rescan when it starts. In this example, we added:
 ```
 rescan=9800
 ```
--Restart the daemon and wait until the daemon is synced again (NOTE: if the number of blocks to rescan is very high, the synced process can be very long!!).
+-Restart the daemon and wait until the daemon is synced again (NOTE: if the number of blocks to rescan is very high, the s ync process can be very long!!).
 
 ```
 lightning-cli getinfo
